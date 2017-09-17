@@ -100,6 +100,12 @@ library
 
     exposed-modules:
         Hoogle
+        General.Store
+        General.Util
+        Output.Items
+        Output.Names
+        Output.Tags
+        Output.Types
 
     other-modules:
         Paths_hoogle
@@ -115,19 +121,13 @@ library
         Input.Reorder
         Input.Set
         Input.Settings
-        Output.Items
-        Output.Names
-        Output.Tags
-        Output.Types
         Query
         General.Conduit
         General.IString
         General.Log
-        General.Store
         General.Str
         General.Template
         General.Timing
-        General.Util
         General.Web
 
 
