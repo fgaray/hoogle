@@ -106,8 +106,6 @@ library
         Output.Names
         Output.Tags
         Output.Types
-
-    other-modules:
         Paths_hoogle
         Action.CmdLine
         Action.Generate
@@ -129,6 +127,7 @@ library
         General.Template
         General.Timing
         General.Web
+
 
 
 executable hoogle
